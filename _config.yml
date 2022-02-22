@@ -94,10 +94,10 @@ social:
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id:
-    anonymize_ip: # true, false (default)
+    tracking_id: "G-PWFR61H520"
+    anonymize_ip: false # true, false (default)
 
 # Site Author
 author:
@@ -109,7 +109,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "ryuee091119@naver.com"
+      url: "mailto:ryuee091119@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "gunny091.github.io"
